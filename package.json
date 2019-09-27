@@ -1,0 +1,25 @@
+{
+  "name": "htny",
+  "version": "1.0.0",
+  "description": "hackathon website for hack the new year",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "build":"next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hacker719/HTNY.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hacker719/HTNY/issues"
+  },
+  "homepage": "https://github.com/Hacker719/HTNY#readme",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
