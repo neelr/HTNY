@@ -10,7 +10,7 @@ export default class Layout extends React.Component {
                 <Navbar/>
                 {this.props.children}
                 <style jsx global>{`
-                @import url('https://fonts.googleapis.com/css?family=Cute+Font|Nunito+Sans&display=swap');
+                @import url('https://fonts.googleapis.com/css?family=Turret+Road:700|Nunito+Sans&display=swap');
                 html,body {
                     font-family: 'Nunito Sans', sans-serif;
                     height:100%;
@@ -22,13 +22,15 @@ export default class Layout extends React.Component {
                     width: 100vw;
                     background-color:#2a0188;
                     margin:0;
-                    height:7vh;
+                    height:60px;
                     display:flex;
                     flex-direction:row;
                     -moz-box-shadow:    3px 3px 5px 6px ;
                     -webkit-box-shadow: 3px 3px 5px 6px ;
                     box-shadow:         3px 3px 5px 6px ;
                     z-index:2;
+                    position: fixed;
+                    top:0;
                 }
                 .item {
                     margin:auto
@@ -45,7 +47,7 @@ export default class Layout extends React.Component {
                     margin:auto
                 }
                 .sidebar {
-                    width:40vw;
+                    width:30vw;
                     flex-direction:row;
                     display:flex;
                 }
@@ -53,15 +55,26 @@ export default class Layout extends React.Component {
                     text-decoration:none;
                 }
                 .hero {
-                    height: 93vh;
+                    top:0;
+                    position: fixed;
+                    height: 100vh;
                     display:flex;
                     color:white;
                     overflow: hidden;
                     position: absolute;
-                    width:100vw
+                    width:100vw;
+                    flex-direction:row !important;
+                }
+                .hero-norm {
+                    height: calc(100vh-50px);
+                    display:flex;
+                    color:white;
+                    width:100vw;
+                    flex-direction:row !important;
                 }
                 .overlay {
-                    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1544557286%2Fsydney-new-years-eve-fireworks-NYEGOLIST1218.jpg%3Fitok%3Dlq-YPJwg&q=85");
+                    clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);
+                    background-image: url("https://files.slack.com/files-pri/T0266FRGM-FNHEDK43V/flat-design-fireworks.jpg");
                     z-index:0;
                     background-position: center;
                     background-repeat: no-repeat;
@@ -76,21 +89,34 @@ export default class Layout extends React.Component {
                         -ms-filter: blur(5px);
                     margin: 0vh -2vw -2vh -2vw;
                 }
+                .titleImage {
+                    z-index:1;
+                    margin:auto;
+                    width:20vw;
+                }
+                .logo {
+                    width:15vw;
+                }
                 .content {
                     z-index:1;
                     margin:auto;
                     display: flex;
                     flex-direction:column;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-                    margin-top:10vh;
+                    margin-top:20vh;
                     text-align:center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
                 }
                 .title {
-                    font-family: 'Cute Font', cursive;
+                    font-family: 'Turret Road', cursive;
                     font-size:4em;
                     margin-bottom:10px;
                 }
                 .subtitle {
-                    
+                    margin-top:10px;
+                    font-size:1.3em;
+                }
+                .hero p {
+                    max-width:40vw;
+                    margin:auto;
                 }
                 `}</style>
             </div>
