@@ -94,7 +94,6 @@ export default class Layout extends React.Component {
                     color:white;
                     width:100vw;
                     flex-direction:column !important;
-                    position: absolute;
                 }
                 .overlay {
                     clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);

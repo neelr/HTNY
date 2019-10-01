@@ -13,6 +13,7 @@
                         flex-direction:column !important;
                     }
                 }
+                
             `}</style>
         </div>
     )
