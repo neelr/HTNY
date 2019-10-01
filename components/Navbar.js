@@ -7,16 +7,16 @@ export default class Navbar extends React.Component {
                         <a href="google.com" style={{ display: "flex" }}><img src="../static/htny-logo.png" style={{ width: "50%", margin: "auto" }} /></a>
                     </div>
                     <div className="item">
-                        <a href="google.com">FAQ</a>
+                        <a href="#faq">FAQ</a>
                     </div>
                     <div className="item">
-                        <a href="google.com">Judges</a>
+                        <a href="#team">Team</a>
                     </div>
                     <div className="item">
-                        <a href="google.com">Sponsors</a>
+                        <a href="#judges">Judges</a>
                     </div>
                     <div className="item">
-                        <a href="google.com">Team</a>
+                        <a href="#sponsors">Sponsors</a>
                     </div>
                 </div>
             </div>
