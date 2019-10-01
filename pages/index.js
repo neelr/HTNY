@@ -1,4 +1,7 @@
 import Layout from "../components/Layout";
+import Row from "../components/Row";
+import Column from "../components/Column";
+import ImageBox from "../components/ImageBox";
 export default class Index extends React.Component {
     render(){
         return(
@@ -11,11 +14,31 @@ export default class Index extends React.Component {
                         <p>Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. </p>
                     </div>
                     <div className="titleImage">
-                        <img className="logo" src="https://files.slack.com/files-pri/T0266FRGM-FNUEQ9G2G/hack-the-new-year-logo.png"/>
+                        <img className="logo" src="../static/htny-logo.png"/>
                     </div>
                 </div>
                 <div className="hero-norm" style={{marginTop:"100vh"}}>
-                    
+                    <Row>
+                        <Column>
+                            <h1>What is a hackathon?</h1>
+                            <p>Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. Lorem ipsum lorem. </p>
+                        </Column>
+                        <Column>
+                            <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="poop poop i like that"/>
+                        </Column>
+                    </Row>
+                    <Row>
+                        <Column>
+                            <ImageBox src="https://cdn.glitch.com/3d283e0f-19c4-4546-b0b2-223ec3a7dc23%2Fworking.jpg?v=1565769221347" desc="poop poop i like that"/>
+                        </Column>
+                        <Column>
+                            <h1>Why should you not come?</h1>
+                            <p>No reason. COME</p>
+                        </Column>
+                    </Row>
+                    <div className="hero-norm">
+                        <h1>Organizers</h1>
+                    </div>
                 </div>
             </Layout>
         )

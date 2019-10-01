@@ -6,6 +6,7 @@ export default class Layout extends React.Component {
             <div>
                 <Head>
                     <title>Hack The New Year! 🎉</title>
+                    <link rel="icon" href="../static/htny-logo.png"/>
                 </Head>
                 <Navbar/>
                 {this.props.children}
@@ -66,11 +67,11 @@ export default class Layout extends React.Component {
                     flex-direction:row !important;
                 }
                 .hero-norm {
-                    height: calc(100vh-50px);
+                    height: 100vh;
                     display:flex;
                     color:white;
                     width:100vw;
-                    flex-direction:row !important;
+                    flex-direction:column !important;
                 }
                 .overlay {
                     clip-path: polygon(100% 0, 100% 87%, 0 100%, 0 100%, 0 0);
