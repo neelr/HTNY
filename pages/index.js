@@ -18,7 +18,7 @@ export default class Index extends React.Component {
                         <img className="logo" src="../static/htny-logo.png"/>
                     </div>
                 </div>
-                <div className="hero-norm" style={{marginTop:"100vh"}}>
+                <div className="hero-norm">
                     <Row>
                         <Column>
                             <h1>What is a hackathon?</h1>
@@ -38,7 +38,7 @@ export default class Index extends React.Component {
                         </Column>
                     </Row>
                 </div>
-                <div style={{color:"white",marginLeft:"5vw",width:"100vw"}}>
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
                     <h1>Organizers</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
@@ -51,7 +51,7 @@ export default class Index extends React.Component {
                         <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
                     </div>
                 </div>
-                <div style={{color:"white",marginLeft:"5vw",width:"100vw"}}>
+                <div style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
                     <h1>Judges</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "next",
-    "build":"next build && next export"
+    "build": "next build && next export"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "dependencies": {
     "next": "^9.0.6",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0"
   }
 }

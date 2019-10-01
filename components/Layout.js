@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Footer from "../components/Footer";
 export default class Layout extends React.Component {
     render() {
         return(
@@ -8,16 +9,23 @@ export default class Layout extends React.Component {
                     <title>Hack The New Year! 🎉</title>
                     <link rel="icon" href="../static/htny-logo.png"/>
                 </Head>
+                <div style={{position:"block"}}>
                 <Navbar/>
                 {this.props.children}
+                </div>
+                <Footer/>
                 <style jsx global>{`
                 @import url('https://fonts.googleapis.com/css?family=Turret+Road:700|Nunito+Sans&display=swap');
                 html,body {
                     font-family: 'Nunito Sans', sans-serif;
-                    height:100%;
+                    min-height:100%;
                     width:100%;
                     margin:0;
                     background-color:#2a0188;
+                    position: relative;
+                }
+                body {
+                    padding-bottom: 20vh;
                 }
                 .navContainer {
                     width: 100vw;
@@ -32,6 +40,7 @@ export default class Layout extends React.Component {
                     z-index:2;
                     position: fixed;
                     top:0;
+                    overflow: hidden;
                 }
                 .item {
                     margin:auto
@@ -57,12 +66,11 @@ export default class Layout extends React.Component {
                 }
                 .hero {
                     top:0;
-                    position: fixed;
+                    position: relative;
                     height: 100vh;
                     display:flex;
                     color:white;
-                    overflow: hidden;
-                    position: absolute;
+                    overflow: hidden !important;
                     width:100vw;
                     flex-direction:row !important;
                 }
