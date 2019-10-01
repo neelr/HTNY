@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Row from "../components/Row";
 import Column from "../components/Column";
 import ImageBox from "../components/ImageBox";
+import Profile from "../components/Profile";
 export default class Index extends React.Component {
     render(){
         return(
@@ -36,8 +37,30 @@ export default class Index extends React.Component {
                             <p>No reason. COME</p>
                         </Column>
                     </Row>
-                    <div className="hero-norm">
-                        <h1>Organizers</h1>
+                </div>
+                <div style={{color:"white",marginLeft:"5vw",width:"100vw"}}>
+                    <h1>Organizers</h1>
+                    <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
+                    </div>
+                </div>
+                <div style={{color:"white",marginLeft:"5vw",width:"100vw"}}>
+                    <h1>Judges</h1>
+                    <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
+                        <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
+                        <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
+                        <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
+                        <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
+                        <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
+                        <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
+                        <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
                     </div>
                 </div>
             </Layout>
