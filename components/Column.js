@@ -14,6 +14,12 @@ function Column (props)  {
                     max-width:80%;
                     margin:auto;
                 }
+                @media only screen and (max-width:685px) {
+                    .column , .container {
+                        width:100vw !important;
+                        display:block;
+                    }
+                }
             `}</style>
         </div>
     )

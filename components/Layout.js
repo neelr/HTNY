@@ -14,7 +14,7 @@ export default class Layout extends React.Component {
                 {this.props.children}
                 </div>
                 <Footer id="footer"/>
-                <style jsx global>{`
+                <style jsx>{`
                 @import url('https://fonts.googleapis.com/css?family=Turret+Road:700|Nunito+Sans&display=swap');
                 html,body {
                     font-family: 'Nunito Sans', sans-serif;
@@ -23,6 +23,19 @@ export default class Layout extends React.Component {
                     margin:0;
                     background-color:#2a0188;
                     position: relative;
+                }
+                @media only screen and (max-width:918px) {
+                    .hidden-mobile {
+                        display:none;
+                    }
+                    .sidebar {
+                        width:317px !important;
+                    }
+                }
+                @media only screen and (max-width:479px) {
+                    .overlay {
+                        clip-path:none !important;
+                    }
                 }
                 body {
                     padding-bottom: 20vh;

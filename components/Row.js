@@ -8,6 +8,11 @@
                     flex-direction:row;
                     display:flex;
                 }
+                @media only screen and (max-width:685px) {
+                    .row {
+                        flex-direction:column !important;
+                    }
+                }
             `}</style>
         </div>
     )

@@ -14,7 +14,7 @@ export default class Index extends React.Component {
                         <h2 className="subtitle">The best hackathon in all of the world that </h2>
                         <p>Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. </p>
                     </div>
-                    <div className="titleImage">
+                    <div className="titleImage hidden-mobile">
                         <img className="logo" src="../static/htny-logo.png"/>
                     </div>
                 </div>
