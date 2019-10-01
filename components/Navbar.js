@@ -4,16 +4,19 @@ export default class Navbar extends React.Component {
             <div className="navContainer">
                 <div className="sidebar">
                     <div className="item" stye={{ display: "flex" }}>
-                        <a href="#main" style={{ display: "flex" }}><img src="../static/htny-logo.png" style={{ width: "50%", margin: "auto" }} /></a>
+                        <a href="google.com" style={{ display: "flex" }}><img src="../static/htny-logo.png" style={{ width: "50%", margin: "auto" }} /></a>
                     </div>
                     <div className="item">
-                        <a href="#FAQ">FAQ</a>
+                        <a href="google.com">FAQ</a>
                     </div>
                     <div className="item">
-                        <a href="#team">Team</a>
+                        <a href="google.com">Judges</a>
                     </div>
                     <div className="item">
-                        <a href="#judges">Judges</a>
+                        <a href="google.com">Sponsors</a>
+                    </div>
+                    <div className="item">
+                        <a href="google.com">Team</a>
                     </div>
                 </div>
             </div>
