@@ -6,7 +6,7 @@ export default class Layout extends React.Component {
         return(
             <div>
                 <Head>
-                    <title>Hack The New Year! 🎉</title>
+                    <title>Hack The New Year</title>
                     <link rel="icon" href="../static/htny-logo.png"/>
                 </Head>
                 <div style={{position:"block"}}>
@@ -15,9 +15,9 @@ export default class Layout extends React.Component {
                 </div>
                 <Footer id="footer"/>
                 <style jsx global>{`
-                @import url('https://fonts.googleapis.com/css?family=Turret+Road:700|Nunito+Sans&display=swap');
+                @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
                 html,body {
-                    font-family: 'Nunito Sans', sans-serif;
+                    font-family: 'Ubuntu', sans-serif;
                     min-height:100%;
                     width:100%;
                     margin:0;
