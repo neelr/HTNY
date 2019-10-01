@@ -105,11 +105,11 @@ export default class Layout extends React.Component {
                     height:100vh;
                     width:110vw;
                     position: absolute;
-                    filter: blur(5px);
-                        -webkit-filter: blur(5px);
-                        -moz-filter: blur(5px);
-                        -o-filter: blur(5px);
-                        -ms-filter: blur(5px);
+                    filter: blur(1.5rem);
+                        -webkit-filter: blur(1.5rem);
+                        -moz-filter: blur(1.5rem);
+                        -o-filter: blur(1.5rem);
+                        -ms-filter: blur(1.5rem);
                     margin: 0vh -2vw -2vh -2vw;
                 }
                 .titleImage {
