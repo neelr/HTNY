@@ -10,7 +10,7 @@ export default class Index extends React.Component {
                 <div className="hero">
                     <div className="overlay">foop</div>
                     <div className="content">
-                        <h1 className="title">Hack The New Year! 🎉</h1>
+                        <h1 className="title">Hack The New Year</h1>
                         <h2 className="subtitle">The best hackathon in all of the world that </h2>
                         <p>Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. Lorem ipsup dorem. </p>
                     </div>
@@ -19,6 +19,7 @@ export default class Index extends React.Component {
                     </div>
                 </div>
                 <div className="hero-norm">
+                <A NAME="#faq">
                     <Row>
                         <Column>
                             <h1>What is a hackathon?</h1>
@@ -39,19 +40,15 @@ export default class Index extends React.Component {
                     </Row>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
-                    <h1>Organizers</h1>
+                    <A NAME="team">
+                    <h1>Our Team</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Doggo" desc="The developer of everything."/>
-                    </div>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Jacob Haap" desc="Executive Director"/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="Faham Tak" desc="Director of Hacker Experience"/>
+                        <Profile src="https://art.pixilart.com/383c8bbc4a92e09.gif" name="JP Mason" desc="Director of Finance & Sponsorship"/>
                 </div>
                 <div style={{color:"white",marginLeft:"5vw",width:"90vw"}}>
+                    <A NAME="judges">
                     <h1>Judges</h1>
                     <div style={{display:"flex",flexWrap:"wrap",flexDirection:"row",width:"100%"}}>
                         <Profile src="https://media1.giphy.com/media/xUPGcuPLCKs0LiYnCg/giphy.gif" name="Catto" desc="I. will. Judge. You."/>
