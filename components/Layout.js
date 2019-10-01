@@ -13,7 +13,7 @@ export default class Layout extends React.Component {
                 <Navbar/>
                 {this.props.children}
                 </div>
-                <Footer/>
+                <Footer id="footer"/>
                 <style jsx global>{`
                 @import url('https://fonts.googleapis.com/css?family=Turret+Road:700|Nunito+Sans&display=swap');
                 html,body {
